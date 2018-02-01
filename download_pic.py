@@ -24,9 +24,8 @@ post_data = {
 }
 
 # 验证码下载
-def get_pic(s ,pic_name):
+def get_pic(s ,pic_name,path):
     global codeurl
-    path = 'images'
     isExists=os.path.exists(path)
     if isExists != True:
         os.makedirs(path)
@@ -44,11 +43,12 @@ def get_pic(s ,pic_name):
 def main():
     # 利用session 保持同步
     s = requests.Session()
-    # 图片数量
-    end_num = 100
+    # 图片数量,文件夹
+    end_num = 1000
+    path = 'images'
     for i in range(0,end_num):
         pic_name = 'pic_'+str(i)
-        get_pic(s, pic_name)
+        get_pic(s, pic_name, path)
 
 if __name__ == '__main__':
     main()
