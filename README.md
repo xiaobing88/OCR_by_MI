@@ -30,4 +30,4 @@ python runserver.py
 ```
 
 ## 参考资料
-[Ho Yeung Lai's Profile](https://xiaobing88.github.io/2018/01/27/%E6%95%99%E5%8A%A1%E5%A4%84%E5%BC%95%E8%B5%B7%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E8%AF%86%E5%88%AB%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-Python%E7%89%88%E6%9C%AC/)
+[教务处引起的验证码识别的机器学习-Python版本](https://xiaobing88.github.io/2018/01/27/%E6%95%99%E5%8A%A1%E5%A4%84%E5%BC%95%E8%B5%B7%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E8%AF%86%E5%88%AB%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-Python%E7%89%88%E6%9C%AC/)
